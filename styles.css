@@ -1,11 +1,35 @@
 .texttop {
-    display: block;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 .img1 {
-    width: 100px;
     display:block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right:auto; 
+}
+
+.search {
+    display:block;
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: black;
+    background-color: #ffffff;
 }
